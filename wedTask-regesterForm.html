@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise #2 -Registration Form </title>
+</head>
+<style>
+    fieldset{ 
+        width: 25rem;
+        border: 1px dotted black;
+    }
+    input{
+        margin-bottom: 1rem;
+    }
+    select{
+        margin-bottom: 1rem;
+    }
+</style>
+<body>
+    <h3>Registration Form !</h3>
+    <fieldset>
+        <h4>Personal details</h4>
+        <hr>
+        <label for="First name"> First name:</label> 
+        <input type="text" id="First name"> <br>
+        <label for="Last name"> Last name:</label>
+        <input type="text" id="Last name"> <br>
+        <label for="Email"> Email:</label>
+        <input type="email" id="Email"> <br>
+        <label for="Gender"> Gender:</label>
+        <input type="radio" name="Gender" id="Gender"> Male
+        <input type="radio" name="Gender" id="Gender"> Female <br>
+        <label for="city">City:</label>
+        <select name="city" id="city">
+         <option value="Amman" >Amman</option>
+        <option value="Irbid" >Irbid</option>
+        <option value="Madaba" >Madaba</option>
+        <option value="Ajloun" >Ajloun</option>
+    </select> <br>
+    <input type="submit" name="Sign Up" id="Sign Up" value="Sign Up"> 
+      
+
+</body>
+</html>
